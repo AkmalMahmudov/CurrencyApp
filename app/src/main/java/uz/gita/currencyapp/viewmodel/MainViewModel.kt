@@ -53,6 +53,4 @@ class MainViewModel @Inject constructor(private val repository: MainRepository) 
         }
         return money
     }
-
-
 }

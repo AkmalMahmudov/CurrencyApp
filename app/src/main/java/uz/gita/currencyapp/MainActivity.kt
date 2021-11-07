@@ -1,9 +1,11 @@
 package uz.gita.currencyapp
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.isVisible
 import by.kirich1409.viewbindingdelegate.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CoroutineScope
@@ -19,6 +21,7 @@ class MainActivity : AppCompatActivity() {
     private val viewModel: MainViewModel by viewModels()
     private val scope = CoroutineScope(Dispatchers.Main + SupervisorJob())
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -29,18 +32,21 @@ class MainActivity : AppCompatActivity() {
             }
         }
         viewModel.getList.observe(this) {
+                binding.progressBar.isVisible = true
             if (it !is CurrencyEvent.Loading) {
                 // progress bar ochiladi
             }
             when (it) {
                 is CurrencyEvent.Failure -> {
+                    Toast.makeText(this, it.errorText, Toast.LENGTH_SHORT).show()
                     // fail bo'ldi
                 }
-                is CurrencyEvent.Loading -> {//progress ar yopiladi
+                is CurrencyEvent.Loading -> {
                 }
                 is CurrencyEvent.Success -> {
-                    binding.result.text = it.resultText
-                    Toast.makeText(this, it.resultText, Toast.LENGTH_SHORT).show()
+                    binding.progressBar.isVisible = false
+                    binding.result.text =
+                        "${binding.amount.text} ${binding.spinFrom.selectedItem} = ${it.resultText} ${binding.spinTo.selectedItem}"
                 }
 
                 else -> {
