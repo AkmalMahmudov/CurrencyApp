@@ -1,51 +1,51 @@
 <resources>
-    <string name="app_name">CurrencyApp</string>
+    <string name="app_name">Convert It</string>
     <string name="currency_converter">Currency Converter</string>
     <string name="amount">Amount</string>
     <string name="from">From</string>
     <string name="to">To</string>
     <string name="convert">Convert</string>
+    <string name="home">Home</string>
+    <string name="rate"><![CDATA[Rate & Share]]></string>
+    <string name="help_amp_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="about_us">About Us</string>
+    <string name="covert_it">Covert It</string>
+    <string name="about">This app uses API of Central Bank of Uzbekistan to convert. Developer: Akmal Mahmudov. \n I created this program based on the knowledge I learned in the GITA Academy of Programmers.  </string>
+    <string name="app_version_1_0">App version 1.0</string>
+    <string name="gita_2021">© GITA, 2021</string>
     <string-array name="currency_codes">
-        <item>AUD</item>
-        <item>AZN</item>
-        <item>BGN</item>
-        <item>BRL</item>
-        <item>BDT</item>
-        <item>BHD</item>
-        <item>BND</item>
-        <item>BRL</item>
-        <item>BYN</item>
-        <item>CAD</item>
-        <item>CHF</item>
-        <item>CZK</item>
-        <item>CNY</item>
-        <item>CUP</item>
-        <item>DKK</item>
-        <item>DZD</item>
+        <item>UZS</item>
+        <item>USD</item>
         <item>EUR</item>
-        <item>EGP</item>
-        <item>GBP</item>
+        <item>RUB</item>
+        <item>CAD</item>
         <item>HKD</item>
-        <item>HRK</item>
-        <item>HUF</item>
-        <item>IDR</item>
-        <item>ILS</item>
-        <item>INR</item>
         <item>ISK</item>
+        <item>PHP</item>
+        <item>DKK</item>
+        <item>HUF</item>
+        <item>CZK</item>
+        <item>AUD</item>
+        <item>RON</item>
+        <item>SEK</item>
+        <item>IDR</item>
+        <item>INR</item>
+        <item>BRL</item>
+        <item>HRK</item>
         <item>JPY</item>
-        <item>KRW</item>
-        <item>MXN</item>
-        <item>MYR</item>
+        <item>THB</item>
+        <item>CHF</item>
+        <item>SGD</item>
+        <item>PLN</item>
+        <item>BGN</item>
+        <item>CNY</item>
         <item>NOK</item>
         <item>NZD</item>
-        <item>PHP</item>
-        <item>PLN</item>
-        <item>RON</item>
-        <item>RUB</item>
-        <item>SEK</item>
-        <item>SGD</item>
-        <item>THB</item>
-        <item>USD</item>
         <item>ZAR</item>
+        <item>MXN</item>
+        <item>ILS</item>
+        <item>GBP</item>
+        <item>KRW</item>
+        <item>MYR</item>
     </string-array>
 </resources>

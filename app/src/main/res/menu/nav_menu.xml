@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainScreen"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/screenRate"
+            android:icon="@drawable/ic_rate"
+            android:title="@string/rate" />
+        <item
+            android:id="@+id/screenHelp"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help_amp_feedback" />
+        <item
+            android:id="@+id/screenAbout"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us" />
+    </group>
+</menu>

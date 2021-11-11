@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/mainScreen">
+
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="uz.gita.currencyapp.ui.MainScreen"
+        android:label="MainScreen"
+        tools:layout="@layout/screen_main">
+        <action
+            android:id="@+id/open_screenAbout"
+            app:destination="@id/screenAbout" />
+        <action
+            android:id="@+id/open_screenRate"
+            app:destination="@id/screenRate" />
+        <action
+            android:id="@+id/open_screenHelp"
+            app:destination="@id/screenHelp" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenAbout"
+        android:name="uz.gita.currencyapp.ui.ScreenAbout"
+        android:label="ScreenAbout"
+        tools:layout="@layout/screen_about">
+        <action
+            android:id="@+id/open_mainScreen"
+            app:destination="@id/mainScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenRate"
+        android:name="uz.gita.currencyapp.ui.ScreenRate"
+        android:label="ScreenRate" />
+    <fragment
+        android:id="@+id/screenHelp"
+        android:name="uz.gita.currencyapp.ui.ScreenHelp"
+        android:label="ScreenHelp" />
+</navigation>
