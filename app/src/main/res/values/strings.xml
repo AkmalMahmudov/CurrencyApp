@@ -13,9 +13,11 @@
     <string name="about">This app uses API of Central Bank of Uzbekistan to convert. Developer: Akmal Mahmudov. \n I created this program based on the knowledge I learned in the GITA Academy of Programmers.  </string>
     <string name="app_version_1_0">App version 1.0</string>
     <string name="gita_2021">© GITA, 2021</string>
+    <string name="_0">0</string>
+    <string name="dot">.</string>
     <string-array name="currency_codes">
-        <item>UZS</item>
         <item>USD</item>
+        <item>UZS</item>
         <item>EUR</item>
         <item>RUB</item>
         <item>CAD</item>

@@ -3,20 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1046875" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/card_bg.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/ic_about.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/ic_arrows.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/ic_help.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/ic_home.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1046875" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/ic_rate.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/drawable/tree.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/main.xml" value="0.18" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/nav_header.xml" value="0.1921875" />
+        <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/new_main.xml" value="0.22" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/screen_about.xml" value="0.30327868852459017" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/screen_help.xml" value="0.1921875" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/screen_main.xml" value="0.22" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/layout/screen_rate.xml" value="0.1921875" />
         <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/menu/nav_menu.xml" value="0.1921875" />
+        <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/Mahmudov/AndroidStudioProjects/CurrencyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1046875" />
       </map>
     </option>
   </component>
